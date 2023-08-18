@@ -84,7 +84,7 @@ GitHub allows you to publish web projects directly from a GitHub repository. Doi
 There are a couple of ways to go about doing this, but the simplest is this:
 
 1. Make sure that the main HTML file of your project is called index.html. If it is not, you will need to rename it.
-2. Go to your GitHub repo on the web and click the Settings button as shown in the screenshot below.Screenshot pointing to the Settings located in an example repository
+2. Go to your GitHub repo on the web and click the Settings button.
 3. Click on Pages on the left side bar.
 4. Change the Branch from none to main branch and click Save.
 

@@ -1,0 +1,15 @@
+:root {
+--electric-indigo: #7300e6;
+--blue-violet: #8520e9;
+--purple-pink: #b319ff;
+}
+
+body {
+  font-family: Anton, sans-serif;
+  font-size: 4rem;
+}
+
+h1 {
+  color: #b319ff;
+}
+
