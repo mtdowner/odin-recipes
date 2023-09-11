@@ -6,6 +6,8 @@
 
 * {
     font-family: anton, sans-serif;
+    letter-spacing: -5px;
+    word-spacing: -10px;
 }
 
 body {
@@ -23,6 +25,7 @@ nav {
   flex-direction: column;
   gap: 1rem;
 }
+
 a {
   background-color: #8a2ea2;
   color: #fff;
