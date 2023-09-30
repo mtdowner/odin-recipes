@@ -4,8 +4,15 @@
   --plink: #B319FF;
 }
 * {
+
   font-family: anton, sans-serif;
   box-sizing: border-box;
+=======
+    font-family: anton, sans-serif;
+    letter-spacing: -5px;
+    word-spacing: -10px;
+    box-sizing: border-box;
+>>>>>>> ef45feba04da81f7b0c7752c87bde537aa612989
 }
 html {
   font-size: 100%;
