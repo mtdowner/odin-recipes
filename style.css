@@ -6,8 +6,8 @@
 * {
   font-family: anton, sans-serif;
   box-sizing: border-box;
-  letter-spacing: -5px;
-  word-spacing: -10px;
+  letter-spacing: -1px;
+  word-spacing: -5px;
 }
 html {
   font-size: 100%;
@@ -18,31 +18,28 @@ body {
 }
 h1 {
   font-size: 4rem;
-  color: var(--purple-pink);
 }
-h2 {
+h1, h2 {
   color: transparent;
   background: linear-gradient(50deg, deepskyblue, blueviolet);
   background-clip: text;
+  -webkit-background-clip: text;
 }
 nav {
   display: flex;
   flex-direction: column;
 }
-
 ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 li {
   font-size: 2rem;
   list-style: none;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
-
 a {
   background-color: #8a2ea2;
   color: #fff;
@@ -56,7 +53,6 @@ a {
     2px 2px 4px rgba(0, 0, 0, 0.32),
     4px 4px 8px rgba(0, 0, 0, 0.51);
 }
-
 a:hover,
 a:focus {
   background-color: #fff;
