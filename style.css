@@ -39,6 +39,11 @@ a:hover,
 a:focus {
   text-shadow: -3px -3px 2px #00afff, 3px 3px 2px #a0f;
 }
+img {
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+}
 footer p {
   color: transparent;
   font-size: 0.5rem;
