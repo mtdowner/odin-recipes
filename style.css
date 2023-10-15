@@ -7,6 +7,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: hack, monospace;
 }
 html {
   font-size: 16px;
@@ -14,7 +15,6 @@ html {
 body {
   text-transform: uppercase;
   height: 100vh;
-  font-family: hack, monospace;
 }
 h1 {
   visibility: hidden;
