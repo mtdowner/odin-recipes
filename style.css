@@ -14,8 +14,7 @@ html {
 body {
   text-transform: uppercase;
   height: 100vh;
-  font-family: abacaxi-latin-variable, sans-serif;
-  font-variation-settings: "wght" 400;
+  font-family: hack, monospace;
 }
 h1 {
   visibility: hidden;
@@ -28,8 +27,8 @@ li {
   padding: 1rem;
 }
 a {
-  font-family: abacaxi-latin-variable, sans-serif;
-  font-variation-settings: "wght" 400;
+  font-family: hack, monospace;
+  font-weight: 700;
   color: #000;
   text-decoration: none;
   text-shadow: 1px 1px 1px #000, 2px 2px 2px #a0f, 3px 3px 3px #000,
