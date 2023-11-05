@@ -4,6 +4,9 @@ img {
   border: 1px solid #000;
 }
 
+* {
+  font-family: gintronic;
+}
 body {
   background-image: url("..imgs/bg.png");
 }
