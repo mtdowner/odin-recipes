@@ -11,9 +11,12 @@ body {
   background-image: url("..imgs/bg.png");
 }
 
+main {
+  padding: 2rem;
+}
 h1 {
   font-size: 3rem;
-  background-color: linear-gradient(#00b0ff, #972fff);
+  background: linear-gradient(#00b0ff, #972fff);
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -22,6 +25,10 @@ nav {
  width: 100%;
  background-color: #8a2be2;
  opacity: .5;
+}
+
+li {
+  list-style-type: none;
 }
 
 a {
