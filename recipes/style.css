@@ -27,7 +27,7 @@ nav {
  opacity: .5;
 }
 
-li {
+nav ul li {
   list-style-type: none;
 }
 
