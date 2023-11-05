@@ -4,6 +4,10 @@ img {
   border: 1px solid #000;
 }
 
+body {
+  background-image: url("..imgs/bg.png");
+}
+
 h1 {
   font-size: 3rem;
   background-color: linear-gradient(#00b0ff, #972fff);
