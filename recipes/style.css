@@ -17,6 +17,19 @@
   transition: all 0.3s ease;
 }
 
+/* polaroid gallery 
+
+.polaroid {
+    height: auto;
+    width: 29.3%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 3px Gainsboro;
+    margin: 2%;
+    float: left;
+}
+*/
+
 .polaroid:hover {
   box-shadow: 4px 8px 16px 6px Gainsboro;
 }
