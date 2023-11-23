@@ -23,7 +23,7 @@ If you are having trouble:
 - Ensure you followed the steps here on Step 2.3 to clone from GitHub with SSH.
 - Refer to the workflow in the Git Basics Lesson.
 
-**Tips on when to commit**
+## Tips on when to commit
 
 Don’t forget everything we went over in the previous lesson about commit messages!
 
@@ -47,7 +47,13 @@ Okay, that’s enough Git for the moment – time to actually build stuff!
 1. Create a new directory within the odin-recipes directory and name it recipes.
 2. Create a new HTML file within the recipes directory and name it after the recipe it will contain. For example lasagna.html. You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use here.
 3. For now, just include an h1 heading with the recipe’s name as its content.
-4. Back in the index.html file, add a link to the recipe page you just created. Example: Under the <h1>Odin Recipes</h1> heading, write out the link like so: <a href="recipes/recipename.html">Recipe Title</a>. The text of the link should again be the recipe name.
+4. Back in the index.html file, add a link to the recipe page you just created.
+
+ **Example**: Under the `<h1>Odin Recipes</h1>` heading, write out the link like so:
+
+`<a href="recipes/recipename.html">Recipe Title</a>`.
+
+ The text of the link should again be the recipe name.
 
 ### Iteration 3: recipe page content
 
@@ -75,7 +81,7 @@ Your new recipe page should have the following content:
 
 Your links won’t be flashy, but for now just focus on building them out.
 
-**Viewing your project on the web**
+### Viewing your project on the web
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), doing this is incredibly simple.
 
