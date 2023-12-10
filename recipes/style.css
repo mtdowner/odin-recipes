@@ -1,0 +1,82 @@
+* {
+  font-family: gintronic;
+}
+.polaroid img {
+  height: 345px;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+}
+
+.polaroid {
+  height: auto;
+  width: 40%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 2px 4px 3px 8px gainsboro;
+  transition: all 0.3s ease;
+}
+
+/* polaroid gallery */
+
+.polaroid {
+    height: auto;
+    width: 29.3%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 3px Gainsboro;
+    margin: 2%;
+    float: left;
+}
+
+.polaroid:hover {
+  box-shadow: 4px 8px 16px 6px Gainsboro;
+}
+
+.caption {
+  padding: 0 20px 20px 20px;
+}
+
+html {
+  background-image: url("../imgs/bg.png");
+}
+
+main {
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: transparent;
+  background: linear-gradient(#00b0ff, #972fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+nav {
+ width: 100%;
+ background-color: #8a2be2;
+ opacity: .5;
+ margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1rem;
+}
+ul li {
+  color: #00b0ff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}

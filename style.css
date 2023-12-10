@@ -1,44 +1,54 @@
 :root {
---electric-indigo: #7300E6;
---blue-violet: #8520E9;
---purple-pink: #B319FF;
+  --indigo: #7300e6;
+  --bliolet: #8520e9;
+  --plink: #b319ff;
 }
-
 * {
-    font-family: anton, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: hack, monospace;
 }
-
+html {
+  font-size: 16px;
+}
 body {
   text-transform: uppercase;
-  min-height: 100vh;
+  height: 100vh;
 }
-
 h1 {
-  font-size: 4rem;
-  color: var(--purple-pink);
+  visibility: hidden;
 }
-
-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+li {
+  list-style: none;
+  font-size: 4.5rem;
+  text-align: right;
+  margin-top: 3rem;
+  padding: 1rem;
 }
 a {
-  background-color: #8a2ea2;
-  color: #fff;
-  border: 0.5rem solid;
-  padding: 0.5rem;
-  text-align: center;
+  font-family: hack, monospace;
+  font-weight: 700;
+  color: #000;
   text-decoration: none;
-  transition: all 0.5s ease-out;
-  box-shadow:
-    1px 2px 2px rgba(0, 0, 0, 0.13), 
-    2px 2px 4px rgba(0, 0, 0, 0.32),
-    4px 4px 8px rgba(0, 0, 0, 0.51);
+  text-shadow: 1px 1px 1px #000, 2px 2px 2px #a0f, 3px 3px 3px #000,
+    4px 4px 4px #a0f, -1px -1px 1px #000, -2px -2px 2px #00afff,
+    -3px -3px 3px #000, -4px -4px 4px #00afff;
 }
-
 a:hover,
 a:focus {
-  background-color: #fff;
-  color: #8a2ea2;
+  text-shadow: -3px -3px 2px #00afff, 3px 3px 2px #a0f;
+}
+img {
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+}
+footer p {
+  color: transparent;
+  font-size: 0.5rem;
+  background: linear-gradient(50deg, #00afff, blueviolet 65%);
+  padding: 0.5rem;
+  text-align: center;
+  text-shadow: -4px -4px #00afff, 4px 4px #a0f;
 }
